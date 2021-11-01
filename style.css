@@ -1,0 +1,469 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 35px;
+	font-weight: 500;
+	color: #434343;
+	margin: 0;
+	font-family: 'Montserrat';
+}
+
+h2 {
+	font-family: 'Montserrat';
+	color: #434343;
+	font-weight: 100;
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.one {
+	background: #FDFFC3;
+	display: flex;
+	align-items: center;
+}
+
+.h1naam {
+  border-right: solid 2px black;
+  white-space: nowrap;
+  overflow: hidden;    
+  animation: animated-text 1.3s steps(29,end) 0.5s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+.toptekst {
+	margin-bottom: 50px;
+	margin-left: 200px;
+	width: 100vw;
+}
+
+
+
+.two {
+	width: 375px;
+	cursor: pointer;
+	background: #FFEEBB;
+	padding-left: 50px;
+	padding-top: 40px;
+}
+
+.two:hover {
+	padding-left: 70px;
+	padding-top: 55px;
+	background-color: #ddbbff;
+	-webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.twotext {
+	
+	font-family: 'Montserrat';
+	font-size: 22px;
+	font-weight: 400;
+	width: 65%;
+
+}
+
+.kpnimage {
+	height: 450px;
+	margin-left: 130px;
+	margin-top: 15vh;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.kpnimage {
+		height: 320px;
+		margin-left: 120px;
+		z-index: 3;
+		position: relative;
+		margin-top: 0px;
+	}
+
+	.two {
+		width: 100vw;
+		height: 500px;
+		background: #FFEEBB;
+		cursor: pointer;
+		padding-left: 50px;
+	}
+
+}
+
+
+.three {
+	width: 375px;
+	background: #FFDCB8;
+	cursor: pointer;
+	padding-left: 50px;
+	padding-top: 40px;
+}
+
+.three:hover {
+	padding-left: 70px;
+	padding-top: 55px;
+	background-color: #b9b8ff;
+	-webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.threetext {
+
+	font-family: 'Montserrat';
+	font-size: 22px;
+	font-weight: 400;
+	width: 65%;
+}
+
+.ootimage {
+	height: 275px;
+	margin-left: 80px;
+	position: absolute;
+	bottom: 50px;
+	z-index: 3;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.ootimage {
+		height: 275px;
+		margin-left: 0px;
+		z-index: 3;
+		position: relative;
+		margin-top: 100px;
+	}
+
+	.three {
+		width: 100vw;
+		height: 500px;
+		background: #FFDCB8;
+		cursor: pointer;
+		padding-left: 50px;
+	}
+
+	.contentklein {
+		max-width: 100vw;
+		overflow: hidden;
+	}
+
+}
+
+.four {
+	width: 375px;
+	background: #FFC1B6;
+	padding-left: 50px;
+	z-index: 123;
+	padding-top: 40px;
+	cursor: pointer;
+}
+
+.four:hover {
+	padding-left: 70px;
+	padding-top: 55px;
+	background-color: #b6ffe2;
+	-webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;	
+}
+
+.fourtext {
+
+	font-family: 'Montserrat';
+	font-size: 22px;
+	font-weight: 400;
+	width: 65%;
+}
+
+.hanzeimage {
+	height: 375px;
+	margin-left: 120px;
+	position: absolute;
+	bottom: 10px;
+	z-index: 3;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.hanzeimage {
+		height: 320px;
+		margin-left: 120px;
+		z-index: 3;
+		position: relative;
+		margin-top: 40px;
+	}
+
+	.four {
+		width: 100vw;
+		height: 500px;
+		background: #FFC1B6;
+		cursor: pointer;
+		padding-left: 50px;
+	}
+
+}
+
+
+.five {
+	width: 375px;
+	background: #FF9E9B;
+	z-index: 1;
+	cursor: pointer;
+	padding-left: 50px;
+	padding-top: 40px;
+}
+
+.five:hover {
+	padding-left: 70px;
+	padding-top: 55px;
+	background-color: #9bffa7;
+	-webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;	
+}
+
+
+.fivetext {
+	font-family: 'Montserrat';
+	font-size: 22px;
+	font-weight: 400;
+	width: 65%;
+}
+
+.bedrijfimage {
+	height: 275px;
+	margin-left: -170px;
+	position: absolute;
+	bottom: 50px;
+	z-index: 3;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	.bedrijfimage {
+		height: 240px;
+		margin-left: 20px;
+		z-index: 3;
+		position: relative;
+		margin-top: 130px;
+	}
+
+	.five {
+		width: 100vw;
+		height: 500px;
+		background: #FF9E9B;
+		cursor: pointer;
+		padding-left: 50px;
+	}
+
+}
+
+.six {
+	width: 375px;
+	background: #FF7B80;
+	cursor: pointer;
+	padding-left: 50px;
+	padding-top: 40px;
+}
+
+.six:hover {
+	padding-left: 70px;
+	padding-top: 55px;
+	background-color: #7fff7b;
+	-webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.sixtext {
+	font-family: 'Montserrat';
+	font-size: 22px;
+	font-weight: 400;
+	width: 65%;
+}
+
+.fabriekimage {
+	width: 475px;
+	margin-left: 50px;
+	bottom: 40px;
+	position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.fabriekimage {
+		width: 130vw;
+		margin-left: 50px;
+		z-index: 3;
+		position: relative;
+		margin-top: 220px;
+	}
+
+	.six {
+		width: 100vw;
+		height: 500px;
+		background: #FF7B80;
+		cursor: pointer;
+		padding-left: 50px;
+	}
+
+}
+
+
+@media only screen and (max-width: 1550) {
+
+	.fabriekvideo {
+		width: 20px;
+		height: 10px;
+	}
+
+}
+
+
+
+.seven {
+	width: 375px;
+	background: #FF6872;
+	cursor: pointer;
+	padding-left: 50px;
+	padding-top: 40px;
+	z-index: 33;
+}
+
+.seven:hover {
+	padding-left: 70px;
+	padding-top: 55px;
+	background-color: #72ff68;
+	-webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.seventext {
+	font-family: 'Montserrat';
+	font-size: 22px;
+	font-weight: 400;
+	width: 65%;
+}
+
+.solarimage {
+	height: 200px;
+	margin-left: 0px;
+	position: absolute;
+	bottom: 50px;
+	z-index: 3;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.solarimage {
+		height: 220px;
+		margin-left: 20px;
+		z-index: 3;
+		position: relative;
+		margin-top: 100px;
+	}
+
+	.seven {
+		width: 100vw;
+		height: 500px;
+		background: #FF6872;
+		cursor: pointer;
+		padding-left: 50px;
+	}
+
+
+}
+
+.outer-wrapper {
+  width: ;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+
+::-webkit-scrollbar {
+  display:none;
+}
+
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 550px;}
+}
+
+@media only screen and (max-width: 800px) { 
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 435px;}
+}
+
+}
+
+.contentklein {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) { 
+
+@keyframes animated-text{
+
+  from {
+  	width: 0;
+  }
+  to {
+  	width: 360px;
+  }
+}
+
+.contentgroot {
+	display: none;
+}
+
+.contentklein { 
+	display: block;
+}
+
+
+}
+
+
+@keyframes animated-cursor{
+  from{border-right-color: black;}
+  to{border-right-color: transparent;}
+}
+
+
+
