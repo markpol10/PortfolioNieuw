@@ -55,12 +55,13 @@ h2 {
 	background: #FFEEBB;
 	padding-left: 50px;
 	padding-top: 40px;
+	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
 }
 
 .two:hover {
 	padding-left: 70px;
 	padding-top: 55px;
-	background-color: #ddbbff;
+	background-color: #b6ffe2;
 	-webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     -o-transition: all .2s ease;
@@ -107,16 +108,17 @@ h2 {
 
 .three {
 	width: 375px;
-	background: #FFDCB8;
+	background: #FFEEBB;
 	cursor: pointer;
 	padding-left: 50px;
 	padding-top: 40px;
+	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
 }
 
 .three:hover {
 	padding-left: 70px;
 	padding-top: 55px;
-	background-color: #b9b8ff;
+	background-color: #b6ffe2;
 	-webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     -o-transition: all .2s ease;
@@ -167,11 +169,12 @@ h2 {
 
 .four {
 	width: 375px;
-	background: #FFC1B6;
+	background: #FFEEBB;
 	padding-left: 50px;
 	z-index: 123;
 	padding-top: 40px;
 	cursor: pointer;
+	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
 }
 
 .four:hover {
@@ -224,17 +227,18 @@ h2 {
 
 .five {
 	width: 375px;
-	background: #FF9E9B;
+	background: #FFEEBB;
 	z-index: 1;
 	cursor: pointer;
 	padding-left: 50px;
 	padding-top: 40px;
+	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
 }
 
 .five:hover {
 	padding-left: 70px;
 	padding-top: 55px;
-	background-color: #9bffa7;
+	background-color: #b6ffe2;
 	-webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     -o-transition: all .2s ease;
@@ -281,16 +285,17 @@ h2 {
 
 .six {
 	width: 375px;
-	background: #FF7B80;
+	background: #FFEEBB;
 	cursor: pointer;
 	padding-left: 50px;
 	padding-top: 40px;
+	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
 }
 
 .six:hover {
 	padding-left: 70px;
 	padding-top: 55px;
-	background-color: #7fff7b;
+	background-color: #b6ffe2;
 	-webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     -o-transition: all .2s ease;
@@ -346,17 +351,18 @@ h2 {
 
 .seven {
 	width: 375px;
-	background: #FF6872;
+	background: #FFEEBB;
 	cursor: pointer;
 	padding-left: 50px;
 	padding-top: 40px;
 	z-index: 33;
+	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
 }
 
 .seven:hover {
 	padding-left: 70px;
 	padding-top: 55px;
-	background-color: #72ff68;
+	background-color: #b6ffe2;
 	-webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     -o-transition: all .2s ease;
