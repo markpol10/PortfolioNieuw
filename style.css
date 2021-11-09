@@ -131,7 +131,6 @@ h2 {
 }
 
 .threetext {
-
 	font-family: 'Montserrat';
 	font-size: 22px;
 	font-weight: 400;
@@ -141,6 +140,7 @@ h2 {
 
 .ootimage {
 	height: 35vh;
+	max-height: 500px;
 	margin-left: 0px;
 	position: absolute;
 	margin-top: 30vh;
@@ -269,6 +269,13 @@ h2 {
 	z-index: 3;
 }
 
+.bedrijfimage {
+	height: 35vh;
+	margin-left: -170px;
+	position: absolute;
+	margin-top: 30vh;
+	z-index: 3;
+}
 
 @media only screen and (max-width: 600px) {
 
