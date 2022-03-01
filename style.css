@@ -78,7 +78,7 @@ h2 {
 	font-family: 'Montserrat';
 	font-size: 22px;
 	font-weight: 400;
-	margin-top: 10vh;
+	margin-top: 5vh;
 	width: 65%;
 
 }
@@ -86,7 +86,7 @@ h2 {
 .kpnimage {
 	height: 50vh;
 	margin-left: 130px;
-	margin-top: 15vh;
+	margin-top: 10vh;
 }
 
 @media only screen and (max-width: 600px) {
@@ -135,7 +135,7 @@ h2 {
 	font-size: 22px;
 	font-weight: 400;
 	width: 65%;
-	margin-top: 10vh;
+	margin-top: 5vh;
 }
 
 .ootimage {
@@ -143,7 +143,7 @@ h2 {
 	max-height: 500px;
 	margin-left: 0px;
 	position: absolute;
-	margin-top: 30vh;
+	margin-top: 25vh;
 	z-index: 3;
 }
 
@@ -199,14 +199,14 @@ h2 {
 	font-size: 22px;
 	font-weight: 400;
 	width: 65%;
-	margin-top: 10vh;
+	margin-top: 5vh;
 }
 
 .hanzeimage {
 	height: 50vh;
 	margin-left: 0px;
 	position: absolute;
-	margin-top: 20vh;
+	margin-top: 15vh;
 	z-index: 3;
 }
 
@@ -258,24 +258,17 @@ h2 {
 	font-size: 22px;
 	font-weight: 400;
 	width: 65%;
-	margin-top: 10vh;
+	margin-top: 5vh;
 }
 
 .bedrijfimage {
 	height: 35vh;
 	margin-left: -170px;
 	position: absolute;
-	margin-top: 30vh;
+	margin-top: 22vh;
 	z-index: 3;
 }
 
-.bedrijfimage {
-	height: 35vh;
-	margin-left: -170px;
-	position: absolute;
-	margin-top: 30vh;
-	z-index: 3;
-}
 
 @media only screen and (max-width: 600px) {
 
@@ -322,13 +315,13 @@ h2 {
 	font-size: 22px;
 	font-weight: 400;
 	width: 65%;
-	margin-top: 10vh;
+	margin-top: 5vh;
 }
 
 .fabriekimage {
 	width: 475px;
 	margin-left: 50px;
-	margin-top: 35vh;
+	margin-top: 25vh;
 	position: absolute;
 }
 
@@ -390,14 +383,14 @@ h2 {
 	font-size: 22px;
 	font-weight: 400;
 	width: 65%;
-	margin-top: 10vh;
+	margin-top: 5vh;
 }
 
 .solarimage {
 	height: 30vh;
-	margin-left: 0px;
+	margin-right: 14vh;
 	position: absolute;
-	margin-top: 30vh;
+	margin-top: 20vh;
 	z-index: 3;
 }
 
